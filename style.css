@@ -26,8 +26,14 @@ ul{
     border-bottom: 1px solid #eee;
     padding: 15px;
     font-size: smaller;
+    background-color: white;
+    }
 
-}
+
+    nav{
+        position:sticky;
+        top:0;
+    }
 
 A:link{
     color:#777;
@@ -35,7 +41,10 @@ A:link{
 }
 
 
-
+section {
+    display: inline-block;
+    width: 45%;
+}
 
 
 h5{
@@ -66,7 +75,7 @@ border-top: 1px solid #eee;
 }
 
 section{
-    padding:20px;
+    width:49%;
     font-family: roboto slab;
 }
 
@@ -86,4 +95,12 @@ background-color: white
 
 body{
     background: #eee ;
+}
+
+.more-articles{
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
